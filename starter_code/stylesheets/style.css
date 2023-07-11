@@ -8,3 +8,148 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px) {
+    nav li {
+        display: none;
+    }
+
+    nav {
+        padding: 4%;
+        size: 20%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img[alt='Slack logo'] {
+        width: 20vw;
+    }
+
+    .menu-r{
+        background-color: #540B51;
+        border-style: none;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 5rem;
+        font-weight: 530;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2% 2% 0 2%;
+    }
+
+    p {
+        color:white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    b {
+        color: #ECB12F;
+        font-weight: normal;
+    }
+
+    #menu-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-button {
+        width: 90%;
+        height: 10vw;
+        margin: 1vw;
+        font-size: 3vw;
+        color: #540B51;
+        font-weight: bold;
+    }
+
+    img[alt='Google logo'] {
+        width: 7%;
+        background-color: white;
+    }
+
+    .login-button + .login-button {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        background-color: #4285F4;
+        align-items: center;
+        color: white;
+        padding-right: 30%;
+    }
+
+    img[alt='Slack app screenshot'] {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .companies > p {
+        font-size: 2.5rem;
+        color: #000000;
+    }
+
+    .companies > div {   
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .companies {
+        width: 100%;
+        background-color: #F3EAE2;
+        color: #000000;
+        text-align: center;
+    }
+
+    img[alt='connectedness'], img[alt='flexibility'], img[alt='speed'] {
+        width: 100%;
+    }
+
+    h2 {
+        color: #000000;
+        font-size: 2.5rem;
+        font-weight: bold;
+    
+    }
+
+    .companies > .logo > img {
+        max-width: 20%;
+        padding: 3.5%;
+    }
+    a {
+        text-decoration: none;
+        color: #2E71A6;
+
+    }
+
+    a::after {
+        content:"=>";
+        display: inline-block;
+    }
+
+    a>span {
+        text-align: center;
+
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #540B51;
+}
+
+.info-p {
+    color: black;
+}
+
+
+
+
+
